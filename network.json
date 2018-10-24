@@ -53,6 +53,16 @@
             ],
             "source": "data.csv",
             "target": "lm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "out",
+                    "type": "txt"
+                }
+            ],
+            "source": "lm.R",
+            "target": "linout.txt"
         }
     ],
     "nodes": [
@@ -84,6 +94,6 @@
             "name": "linout.txt"
         }
     ],
-    "updated_at": "2018-10-24 20:24:32",
+    "updated_at": "2018-10-24 20:24:44",
     "url": "https://github.com/dsclass-prod/test10"
 }
