@@ -30,12 +30,18 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "yatish",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "analyze.R"
         }
     ],
-    "updated_at": "2018-10-24 18:40:15",
+    "updated_at": "2018-10-24 19:14:19",
     "url": "https://github.com/dsclass-prod/test10"
 }
