@@ -33,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "analyze.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "img",
+                    "type": "png"
+                }
+            ],
+            "source": "analyze.R",
+            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -55,6 +65,6 @@
             "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-24 19:14:45",
+    "updated_at": "2018-10-24 19:15:24",
     "url": "https://github.com/dsclass-prod/test10"
 }
