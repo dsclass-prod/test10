@@ -58,13 +58,19 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "yatish",
             "desc": "",
-            "name": "analyze.R"
+            "name": "analyze.R",
+            "task_status": "in progress"
         },
         {
             "name": "plot.png"
+        },
+        {
+            "desc": "",
+            "name": "lm.R"
         }
     ],
-    "updated_at": "2018-10-24 19:15:24",
+    "updated_at": "2018-10-24 20:23:59",
     "url": "https://github.com/dsclass-prod/test10"
 }
