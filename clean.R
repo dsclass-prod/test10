@@ -1,3 +1,2 @@
 
-#clean_data <- raw_data
-clean_data <- mtcars
+clean_data <- raw_data
