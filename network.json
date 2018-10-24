@@ -40,8 +40,11 @@
         {
             "desc": "",
             "name": "analyze.R"
+        },
+        {
+            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-24 19:14:19",
+    "updated_at": "2018-10-24 19:14:34",
     "url": "https://github.com/dsclass-prod/test10"
 }
