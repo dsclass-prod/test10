@@ -2,5 +2,5 @@
 library(ggplot2)
 theme_set(theme_classic())
 
-g <- ggplot(data, aes(df$Airline.Status))
-img <- g + geom_bar(aes(fill=df$Type.of.Travel), width = 0.5) + theme(axis.text.x = element_text(angle=65, vjust=0.6)) + labs(title="Histogram on Categorical Variable", subtitle="Airline status across Type of Travel")
+g <- ggplot(data, aes(data$Airline.Status))
+img <- g + geom_bar(aes(fill=data$Type.of.Travel), width = 0.5) + theme(axis.text.x = element_text(angle=65, vjust=0.6)) + labs(title="Histogram on Categorical Variable", subtitle="Airline status across Type of Travel")
