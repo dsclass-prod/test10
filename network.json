@@ -43,6 +43,16 @@
             ],
             "source": "analyze.R",
             "target": "plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "lm.R"
         }
     ],
     "nodes": [
@@ -74,6 +84,6 @@
             "name": "linout.txt"
         }
     ],
-    "updated_at": "2018-10-24 20:24:16",
+    "updated_at": "2018-10-24 20:24:32",
     "url": "https://github.com/dsclass-prod/test10"
 }
